@@ -1,0 +1,107 @@
+nav {
+    display: flex;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #131313;
+    height: 50px;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+
+}
+
+.image-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+  
+
+.nav-list {
+    list-style: none;
+    display: flex;
+  }
+
+.nav-list a{
+  font-weight: bold;
+  font-size: 23px;
+
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 13px;
+  }
+
+
+.area-right{
+  display: flex;
+  align-items: center;
+}
+  
+.area-right .searchh{
+  width: 100px;
+  border: 1px solid var(--blue-color);
+  background-color: var(--gray-color);
+  padding: 5px 10px;
+  border-radius: 4px;
+  margin-right: 10px;
+  justify-content: start;
+  align-items: center;
+  display: flex;
+  cursor: pointer;
+}
+
+.area-right button{
+  border: none;
+  background-color: transparent;
+}
+
+.area-right button img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 13px;
+    object-fit: cover;
+    background-color: transparent;
+}
+
+.rank-name{
+  margin-right: 17px;
+}
+
+@media screen and (max-width: 375px){
+  .area-right .searchh {
+      width: 50px;
+  }
+}
+
+@media screen and (max-width: 400px){
+  .area-right .searchh {
+      width: 50px;
+  }
+  .nav-list a{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 340px){
+  .area-right .searchh {
+      width: 50px;
+  }
+
+  .nav-list a{
+    font-weight: bold;
+    font-size: 17px;
+  }
+
+  .rank-name{
+    margin-right: 12px;
+  }
+
+
+}

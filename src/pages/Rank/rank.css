@@ -1,0 +1,135 @@
+.container{
+    background-color: #131313;
+    width: 100%;
+    min-height: 100vh;
+    height: 100%;
+    background-image: url('../../images/background1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 50px;
+
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 0.6em;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.card-ul{
+    list-style-type: none;
+    width: 80%;
+    padding: 20px 10px;
+    margin: auto;
+    max-width: 700px;
+}
+
+.area{
+    background-color: #131313c7;
+    margin-bottom: 15px;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    border-radius: 7px;
+    border: 1px solid var(--blue-color);
+}
+
+.area-left{
+    display: flex;
+    flex: row;
+    /* background-color: red; */
+    align-items: center;
+    width: 50%;
+    max-width: 400px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.area-left img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 13px;
+    object-fit: cover;
+}
+
+.area-name{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap; /* Evitar que o texto seja quebrado em várias linhas */
+    text-overflow: ellipsis; /* Mostrar três pontos (...) quando o texto for cortado */
+}
+
+.area-name strong{
+    font-size: 23px;
+    color: var(--orange-color);
+    font-style: italic;
+}
+
+.area-name span{
+    color: #ccc;
+    font-weight: 500;
+}
+
+.area-left .order{
+    color: #6D777D;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.area .gols{
+    font-size: 35px;
+    font-weight: 200;
+    color: #fff;
+    font-style: italic;
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 560px){
+    .card-ul{
+        width: 95%;
+    }
+
+    .area {
+        padding: 10px 10px;
+    }
+
+    .area-left .order{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .area-name strong{
+        font-size: 17px;
+    }
+
+    .area .gols {
+        font-size: 27px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .area-left img{
+        margin: 0 8px;
+    }
+}
+
+@media screen and (max-width: 350px){
+    .area .gols {
+        font-size: 24px;
+    }
+    .area-name strong {
+        font-size: 15px;
+    }
+    .area-name span {
+        font-size: 15px;
+    }
+    
+    
+}

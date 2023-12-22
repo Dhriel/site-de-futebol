@@ -1,0 +1,256 @@
+.profile-area{
+    background-color: #131313;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    background: rgb(0,0,0);
+    background: linear-gradient(174deg, rgb(0, 0, 0) 44%, rgba(0,37,92,1) 72%, rgb(3, 41, 97) 100%);
+}
+
+.profile-user{
+    width: 70%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.user-img{
+    max-width: 400px;
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.img-file{
+    display: none;
+}
+
+.user-img span{
+    position: absolute;
+    z-index: 990;
+    transition: all 0.5s;
+    box-shadow: 1px 1px 1px 1px #131313;
+}
+
+.user-img span:hover{
+   transform: scale(1.9);
+}
+
+.user-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.user-name{
+    padding: 0 2em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.user-name h1{
+    text-align: start;
+    padding-top: 0.6em;
+    font-size: 3em;
+    margin-bottom: 0.2em;
+}
+
+.user-complemento{
+    color: #ccc;
+    font-style: italic;
+    font-size: 20px;
+    text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+
+.profile-info{
+    width: 70%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.profile-info .info-area{
+    display: flex;
+    flex-direction: column;
+    margin-right: 3em;
+}
+
+.info-area .desc{
+    font-size: 3em;
+    color: #6D777D;
+    font-weight: bold;
+}
+
+.info-area .desc-player{
+    font-size: 2em;
+    color: var(--orange-color);
+    font-weight: bold;
+    background-color: transparent;
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+    
+}
+
+.end-page{
+    width: 70%;
+    height: auto;
+    padding: 20px 10px;
+    display: flex;
+    margin: 0 auto;
+    display: flex;
+}
+
+.end-page button{
+    margin-right: 4em;
+    color: #fff;
+    border: none;
+    padding: 0.5em;
+    font-size: 20px;
+    border-radius: 3px;
+    font-style: italic;
+
+}
+
+@media screen and (max-width: 1040px){
+    .profile-user{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        color: #7a1212;
+    }
+
+    .profile-info{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .end-page {
+        width: 100%;
+        height: auto;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        display: flex;
+    }
+
+    .user-name h1{
+        text-align: center;
+    }
+
+    .user-complemento{
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .profile-info .info-area{
+        margin: 0 10px;
+    }
+    
+    .end-page button{
+        margin: 0.5em 1em;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .user-name h1{
+        font-size: 40px
+    }
+
+    .user-complemento{
+        font-size: 15px;
+    }
+
+    .info-area .desc{
+        font-size: 35px;
+    }
+
+    .info-area .desc-player{
+        font-size: 30px;
+    }
+}
+    
+
+@media screen and (max-width: 520px){
+    .user-name{
+        padding: 0;
+    }
+
+    .user-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .profile-info{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        width: 80%;
+    }
+
+    .profile-info .info-area{
+        margin-bottom: 15px;
+    }
+
+    .user-name h1{
+        font-size: 30px
+    }
+
+    .info-area .desc{
+        font-size: 45px;
+    }
+
+    .info-area .desc-player{
+        font-size: 35px;
+    }
+
+    .info-area{
+        margin: 10px 10px;
+    }
+
+    .od1{order: 1;}
+    .od2{order: 2;}
+    .od3{order: 3;}
+}
+
+
+@media screen and (max-width: 450px){
+    .profile-info{
+        width: 90%;
+    }
+
+    .info-area .desc{
+        font-size: 40px;
+    }
+
+    .info-area .desc-player{
+        font-size: 30px;
+    }
+
+}   
+
+@media screen and (max-width: 365px){
+    .user-name h1{
+        font-size: 27px;
+    }
+
+    .end-page button{
+        font-size: 17px;
+    }
+
+}   

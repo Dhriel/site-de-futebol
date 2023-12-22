@@ -1,0 +1,175 @@
+.artilharia-container{
+    width: 100%;
+    background-color: #131313;
+}
+
+.artilharia-area{
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #131313c7;
+}
+
+.artilharia-area h2{
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    background-color: #00388c98;
+    padding: 10px 0;
+}
+
+.artilharia-box{
+    list-style: none;
+    display: grid;
+    margin: auto;
+    column-gap: 0.7rem;
+    row-gap: 0.7rem;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 0.5rem;
+    width: 99%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: #181818be;
+}
+
+.artilharia-lista{
+    border: 1px solid var(--blue-color);
+    border-radius: 4px;
+    padding: 5px 0;
+    
+}
+
+.artilharia-mesnome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.artilharia-lista h3{
+    font-size: 30px;
+}
+
+.artilharia-lista button{
+    width: 30px;
+    height: 30px;
+    background-color: #20292E;
+    border: none;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+
+
+.artilharia-lista li{
+    width: 100%;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+
+.montharea{
+    background-color: #131313;
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    border-radius: 7px;
+}
+
+.montharea:hover{
+    background-color: #212529c4;
+}
+
+.montharea-left{
+    display: flex;
+    flex: row;
+    /* background-color: red; */
+    align-items: center;
+    width: 60%;
+    max-width: 400px;
+    background-color: transparent;
+    border: none;
+
+}
+
+.monthorder{
+    color: #6D777D;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.montharea-left img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0 13px;
+    object-fit: cover;
+}
+
+.montharea-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.montharea-name strong{
+    font-size: 15px;
+    color: var(--orange-color);
+    font-style: italic;
+    text-overflow: ellipsis;
+}
+
+.montharea-name span{
+    color: #ccc;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.montharea-left .order{
+    color: #6D777D;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.montharea .gols{
+    font-size: 25px;
+    font-weight: 200;
+    color: #fff;
+    font-style: italic;
+    width: 28px;
+    display: inline-block;
+    text-align: end;
+}
+
+
+
+
+@media screen and (max-width: 1240px){
+    .artilharia-box{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 768px){
+    .artilharia-box{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width: 425px){
+
+    .montharea .gols{
+        font-size: 20px;
+    }
+
+    .montharea-left{
+        width: auto;
+
+    }
+
+}
+
+@media screen and (max-width: 372px){
+    .artilharia-lista button{
+        width: 20px;
+        height: 20px;
+    }
+    
+}
