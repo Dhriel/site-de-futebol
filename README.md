@@ -26,3 +26,4 @@ Com a conta do Adm é possível editar os Gols do usuário e criar novos Meses e
 ![mockup do site](https://imagesupload.net/images/h3BSO.png)
 ![mockup do site](https://imagesupload.net/images/h3Jmr.png)
 
+![galaticos](https://github.com/Dhriel/site-de-futebol/assets/92495012/ed208dc5-1cf6-46a5-9949-a67241e41afe)
