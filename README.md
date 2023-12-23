@@ -1,75 +1,28 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+![mockup do site](https://imagesupload.net/images/h3R1s.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Galáticos Futebol Club
+O melhor site para ter seus gols registrado no futebol de amigos.
 
-## Available Scripts
+## 📌 Introdução
+Neste app é possível acompanhar o perfil de cada jogador, podendo visualizar seu perfil, alterar sua imagem, apelido, ver seus gols em cada mês, adicionar uma descrição.
 
-In the project directory, you can run:
+Com a conta do Adm é possível editar os Gols do usuário e criar novos Meses e Anos adicionando os jogadores em com seus respectivos gols nessas datas.
 
-### `npm start`
+## ⚙️ Tecnologias usadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Firebase](https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white) ![Context-API](https://img.shields.io/badge/Context--Api-000000?style=for-the-badge&logo=react)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 💡 Veja o vídeo do projeto completo no meu Linkedin! 
+[Meu Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7132425052288921600/)
 
-### `npm run build`
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![mockup do site](https://imagesupload.net/images/h39Zm.png)
+![mockup do site](https://imagesupload.net/images/h38Tn.png)
+![mockup do site](https://imagesupload.net/images/h3BSO.png)
+![mockup do site](https://imagesupload.net/images/h3Jmr.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-=======
-# site-de-futebol
-Um projeto de um site de futebol, com sistema de contas e listagem de gols.
->>>>>>> 30029cb8c1125c80de0cc3f92e1e5981bd4103b3
