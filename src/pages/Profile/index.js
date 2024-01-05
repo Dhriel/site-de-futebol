@@ -14,8 +14,6 @@ import ModalProfile from '../../components/ModalProfile';
 
 import loadImage from '../../images/load.svg';
 
-
-
 function Profile(){
     const {id} = useParams();
     const [player, setPlayer] = useState([]);
