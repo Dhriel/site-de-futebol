@@ -16,9 +16,8 @@ Com a conta do Adm é possível editar os Gols do usuário e criar novos Meses e
 
 
 ### 💡 Veja o vídeo do projeto completo no meu Linkedin! 
-[Meu Linkedin](https://www.linkedin.com/feed/update/urn:li:activity:7132425052288921600/)
 
-![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/feed/update/urn:li:activity:7132425052288921600/)
 
 ![58bd78b1-8ebd-4089-a278-81f1b47c80f6](https://github.com/Dhriel/site-de-futebol/assets/92495012/c6d3f892-65d7-4a24-8049-a8a6f79582e9)
 
